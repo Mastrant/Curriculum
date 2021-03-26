@@ -1,0 +1,15 @@
+CREATE DATABASE Curriculum;
+SELEC Curriculum;
+CREATE TABLE experiencia_Profecional (
+
+Id Int(4) PRIMARY KEY,
+Empresa_Organizacion char(40) Not Null,
+Cargo char(40) Not Null, 
+Localidad TEXT Not Null, 
+Fecha char(20) Not Null);
+
+INSERT INTO experiencia_Profecional VALUES ( 1, "Cactus ¡hi!", "Community Manager", "Venezuela", "3 meses");
+INSERT INTO experiencia_Profecional VALUES ( 2, "El Doctor del Pan", "Community Manager", "Venezuela", "2 meses");
+INSERT INTO experiencia_Profecional VALUES ( 3, "Iglesia Cristiana de Avivamiento Maranatha", "Colaborador", "Venezuela", "desde el 2018");
+
+SELECT * FROM experiencia_Profecional;
